@@ -21,6 +21,8 @@
 		D7E93F7F18E5394800D38756 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7E93F6118E5394800D38756 /* UIKit.framework */; };
 		D7E93F8718E5394800D38756 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7E93F8518E5394800D38756 /* InfoPlist.strings */; };
 		D7E93F8918E5394800D38756 /* JGFlippableViewExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E93F8818E5394800D38756 /* JGFlippableViewExampleTests.m */; };
+		D7E93F9418E539B300D38756 /* JGFlippableView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7E93F9318E539B300D38756 /* JGFlippableView.m */; };
+		D7F8686518E54A9600F818D0 /* test.png in Resources */ = {isa = PBXBuildFile; fileRef = D7F8686418E54A9600F818D0 /* test.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		D7E93F8418E5394800D38756 /* JGFlippableViewExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JGFlippableViewExampleTests-Info.plist"; sourceTree = "<group>"; };
 		D7E93F8618E5394800D38756 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7E93F8818E5394800D38756 /* JGFlippableViewExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JGFlippableViewExampleTests.m; sourceTree = "<group>"; };
+		D7E93F9218E539B300D38756 /* JGFlippableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JGFlippableView.h; sourceTree = "<group>"; };
+		D7E93F9318E539B300D38756 /* JGFlippableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JGFlippableView.m; sourceTree = "<group>"; };
+		D7F8686418E54A9600F818D0 /* test.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = test.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,9 @@
 				D7E93F6F18E5394800D38756 /* Main.storyboard */,
 				D7E93F7218E5394800D38756 /* JGViewController.h */,
 				D7E93F7318E5394800D38756 /* JGViewController.m */,
+				D7E93F9218E539B300D38756 /* JGFlippableView.h */,
+				D7E93F9318E539B300D38756 /* JGFlippableView.m */,
+				D7F8686418E54A9600F818D0 /* test.png */,
 				D7E93F7518E5394800D38756 /* Images.xcassets */,
 				D7E93F6418E5394800D38756 /* Supporting Files */,
 			);
@@ -232,6 +240,7 @@
 				D7E93F7618E5394800D38756 /* Images.xcassets in Resources */,
 				D7E93F6818E5394800D38756 /* InfoPlist.strings in Resources */,
 				D7E93F7118E5394800D38756 /* Main.storyboard in Resources */,
+				D7F8686518E54A9600F818D0 /* test.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +262,7 @@
 				D7E93F6A18E5394800D38756 /* main.m in Sources */,
 				D7E93F7418E5394800D38756 /* JGViewController.m in Sources */,
 				D7E93F6E18E5394800D38756 /* JGAppDelegate.m in Sources */,
+				D7E93F9418E539B300D38756 /* JGFlippableView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -457,6 +467,7 @@
 				D7E93F8E18E5394800D38756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D7E93F8F18E5394800D38756 /* Build configuration list for PBXNativeTarget "JGFlippableViewExampleTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +476,7 @@
 				D7E93F9118E5394800D38756 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
